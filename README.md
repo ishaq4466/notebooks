@@ -9,10 +9,15 @@
 ```
 conda env list
 conda activate/deactivate <env-name>
+
 # installation of the jupyter notebook package
 conda install jupyter
+
 # creating an env.
 conda create -n <env-name>
+
+# deactivating the conda to init the base env at status
+conda config --set auto_activate_base false
 ```
 
 ### jupyter nb hacks
